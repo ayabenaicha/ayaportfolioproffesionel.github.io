@@ -20,4 +20,7 @@ export default {
         glsl(), // Support GLSL files
         restart({ restart: [ '../static/**', ] }) // Restart server on static file change
     ],
+   
+        base: '/ayaportfolioprofessionel.github.io/',
+
 }
