@@ -21,6 +21,6 @@ export default {
         restart({ restart: [ '../static/**', ] }) // Restart server on static file change
     ],
    
-        base: '/ayaportfolioprofessionel.github.io/',
-
+  
+    base: '/ayay.github.io/',
 }

@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "vite": "^5.2.11",
@@ -13,6 +15,7 @@
   "dependencies": {
     "cannon": "^0.6.2",
     "dat.gui": "^0.7.9",
+    "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
     "howler": "^2.2.4",
     "three": "^0.164.1",
